@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +7,96 @@
     <title>Document</title>
 </head>
 <body>
+    <!--заголовок-->
     <header>
-    
+        <a href="/" class="logo">WebStudio</a>
+        <nav class="navigation">
+            <Ul class="navigation_pages">
+                <li class="navigation_page">Студия</li>
+                <li class="navigation_page">Портфолио</li>
+                <li class="navigation_page">Контакты</li>
+            </Ul>
+        </nav>
+        <ul class="contacts">
+            <li class="contact"> <a href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+            <li class="contact"> <a href="tel:+380961111111">+38 096 111 11 11</a> </li>
+        </ul>
     </header>
-    
+    <!--основная часть-->
     <main>
-
+    <!--герой-->    
+        <section class="hero">
+            <h1 class="header">Эффективные решения для вашего бизнеса</h1>
+            <button type="button">Заказать услугу</button>
+        </section>
+    <!--преимущества-->   
+        <section class="advantages">
+            <h2 class="advantages_header">преимушества</h2>
+            <ul class="our_advantages">
+                <li class="our_advantage">
+                    <h3 class="our_advantage_header">Внимание к деталям</h3>
+                    <p class="our_advantage_text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li class="our_advantages">
+                    <h3 class="our_advantage_header">Пунктуальность</h3>
+                    <p class="our_advantage_text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li class="our_advantages">
+                    <h3 class="our_advantage_header">Планирование</h3>
+                    <p class="our_advantage_text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li class="our_advantages">
+                    <h3 class="our_advantage_header">Современные технологии</h3>
+                    <p class="our_advantage_text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+        </section>
+    <!--примеры работ-->    
+        <section class="examples">
+            <h2 class="examples_header">Чем мы занимаемся</h2>
+            <ul class="our_exampples">
+                <li class="our_example"> <a href=""> <img src="./images/example1.jpg" alt="пример работы 1" width="370"> </a> </li>
+                <li class="our_example"> <a href=""> <img src="./images/example2.jpg" alt="пример работы 1" width="370"> </a> </li>
+                <li class="our_example"> <a href=""> <img src="./images/example3.jpg" alt="пример работы 1" width="370"> </a> </li>
+            </ul>
+        </section>
+    <!--команда-->
+        <section class="team">
+            <h2 class="team_header">Наша команда</h2>
+            <ul class="team_units">
+                <li class="team_unit">
+                    <img src="./images/team1.jpg" alt="сотрудник 1" class="team_unit_photo" width="270">
+                    <h3 class="team_unit_name">Игорь Демьяненко</h3>
+                    <p class="team_unit_title">Product Designer</p>
+                </li>
+                <li class="team_unit">
+                    <img src="./images/team2.jpg" alt="сотрудник 1" class="team_unit_photo" width="270">
+                    <h3 class="team_unit_name">Ольга Репина</h3>
+                    <p class="team_unit_title">Frontend Developer</p>
+                </li>
+                <li class="team_unit">
+                    <img src="./images/team3.jpg" alt="сотрудник 1" class="team_unit_photo" width="270">
+                    <h3 class="team_unit_name">Николай Тарасов</h3>
+                    <p class="team_unit_title">Marketing</p>
+                </li>
+                <li class="team_unit">
+                    <img src="./images/team4.jpg" alt="сотрудник 1" class="team_unit_photo" width="270">
+                    <h3 class="team_unit_name">Михаил Ермаков</h3>
+                    <p class="team_unit_title">UI Designer</p>
+                </li>
+            </ul>
+        </section>    
     </main>
-    
+    <!--подвал-->
     <footer>
-
+        <a href="/" class="logo">WebStudio</a>
+        <address class="contacts_list">
+            <ul class="contacts">
+                <li class="contact">г. Киев, пр-т Леси Украинки, 26</li>
+                <li class="contact"><a href="mailto:info@example.com">info@example.com</a> </li>
+                <li class="contact"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+        </address>
     </footer>
 </body>
 </html>
