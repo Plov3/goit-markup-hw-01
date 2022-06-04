@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <!--заголовок-->
     <header>
-        <a href="/" class="logo">WebStudio</a>
-        <nav class="navigation">
+            <nav class="navigation">
+                <a href="/" class="logo">WebStudio</a>
             <ul class="navigation_pages">
-                <li class="navigation_page"><a href="">Студия</a></li>
-                <li class="navigation_page"><a href="">Портфолио</a></li>
-                <li class="navigation_page"><a href="">Контакты</a></li>
+                <li class="navigation_page"><a href="#1">Студия</a></li>
+                <li class="navigation_page"><a href="#2">Портфолио</a></li>
+                <li class="navigation_page"><a href="#3">Контакты</a></li>
             </ul>
         </nav>
         <ul class="contacts">
@@ -25,7 +26,7 @@
     <!--основная часть-->
     <main>
     <!--герой-->    
-        <section class="hero">
+        <section class="hero"  id="1">
             <h1 class="header">Эффективные решения для вашего бизнеса</h1>
             <button type="button">Заказать услугу</button>
         </section>
@@ -52,7 +53,7 @@
             </ul>
         </section>
     <!--примеры работ-->    
-        <section class="examples">
+        <section class="examples" id="2">
             <h2 class="examples_header">Чем мы занимаемся</h2>
             <ul class="our_exampples">
                 <li class="our_example"><img src="./images/examples/example1.jpg" alt="пример работы 1" width="370" height="294"></li>
@@ -90,7 +91,7 @@
     <!--подвал-->
     <footer>
         <a href="/" class="logo">WebStudio</a>
-        <address class="contacts_list">
+        <address class="contacts_list" id="3">
             <ul class="contacts">
                 <li class="contact"><a href="https://goo.gl/maps/tf9V9uD1shakLC2a6" target="_blank" rel="nooppener noreferal">г. Киев, пр-т Леси Украинки, 26</a> </li>
                 <li class="contact"><a href="mailto:info@example.com">info@example.com</a> </li>
